@@ -14,11 +14,11 @@ import java.util.Date;
 
 public class Customer {
     //declare data members
-    int customerId;
-    String name;
-    String address;
-    String email;
-    String password;
+    private int customerId;
+    private String name;
+    private String address;
+    private String email;
+    private String password;
     
     //constructor
     public Customer(){

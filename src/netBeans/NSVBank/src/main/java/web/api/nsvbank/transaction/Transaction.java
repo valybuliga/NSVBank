@@ -14,11 +14,11 @@ import java.util.Date;
 
 public class Transaction {
     //declare data members
-    int transactionId;
-    Double transactionAmount;
-    Date transactionDate;
-    String transactionDescription;
-    Double postTransactionBalance;
+    private int transactionId;
+    private Double transactionAmount;
+    private Date transactionDate;
+    private String transactionDescription;
+    private Double postTransactionBalance;
     
     //constructor
     public Transaction(){
